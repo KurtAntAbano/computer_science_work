@@ -52,7 +52,7 @@ while count != 10:
             count += 1
 
     if option == "div":
-        print(x,"/", y,"=")
+        print(x,"/", y,"= (rounded to the nearest integer)")
         right_answer = div(x,y)
         answer = int(input())
         if answer == right_answer:
