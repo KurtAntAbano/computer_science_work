@@ -19,7 +19,6 @@ def length_check(digits):
     return temp
 
 
-
 def is_valid(total):
     result = total % 10
     if result == 0:
