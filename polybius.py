@@ -1,4 +1,6 @@
 # TASK 1 AND 2
+
+
 square = [[0, 1, 2, 3, 4, 5],
           [1, "A", "B", "C", "D", "E"],
           [2, "F", "G", "H", "I", "J"],
@@ -20,11 +22,6 @@ def deCipher(cryptogram, square):
     word = ""  # initialise the value of word to empty string
 
     # .......................... MISSING CODE   ..................................
-    #
-    #
-    #
-    #
-    #
     #                         Write the missing code
     for i in range(0, len(crypto)):
         str_crypto = str(crypto[i])
