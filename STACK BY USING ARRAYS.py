@@ -20,8 +20,7 @@ def push(element):
 
         print("New stack:\n", names)
 
-
-# write code to check push an element (passed as parameter) at the stackPoonter
+    # write code to check push an element (passed as parameter) at the stackPoonter
 
 
 def pop():
@@ -35,9 +34,7 @@ def pop():
         stackPointer -= 1
         print(names[stackPointer], "has been undone")
 
-
-
-# write a code to pop the element at stackPointer
+    # write a code to pop the element at stackPointer
 
 
 def isEmpty():
@@ -70,7 +67,6 @@ def isFull():
 
 
 def main():
-
     print("What would you like to do:\n1.push\n2.pop\n3.check if empty\n4.check if full")
     answer = input()
     if answer == "1":
@@ -99,4 +95,3 @@ def main():
 
 
 main()
-
