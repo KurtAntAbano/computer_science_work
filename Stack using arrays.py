@@ -3,6 +3,7 @@ names = ["", "", "", "", "", "", "", "", "", "", ""]
 stackPointer = 0
 maxLength = len(names)
 
+
 # the above are global
 
 def push(element):
@@ -10,13 +11,16 @@ def push(element):
     global maxLength
     global names
 
-    names[stackPointer] = element
-    stackPointer += 1
+    if isFull():
+        print("ERROR STACK IS FULL")
 
-    print("New stack:\n", names)
+    else:
+        names[stackPointer] = element
+        stackPointer += 1
 
+        print("New stack:\n", names)
 
-# write code to check push an element (passed as parameter) at the stackPoonter
+    # write code to check push an element (passed as parameter) at the stackPoonter
 
 
 def pop():
@@ -24,8 +28,13 @@ def pop():
     global maxLength
     global names
 
+    if isEmpty():
+        print("ERROR, Stack is empty")
+    else:
+        stackPointer -= 1
+        print(names[stackPointer], "has been undone")
 
-# write a code to pop the element at stackPointer
+    # write a code to pop the element at stackPointer
 
 
 def isEmpty():
@@ -34,17 +43,12 @@ def isEmpty():
     global names
 
     if stackPointer == 0:
-        print("Stack is empty")
+        return True
 
     else:
-        x = maxLength - stackPointer
-        print("there are", x, "spaces left")
+        return False
 
-
-
-
-
-    # write code to check if stack is empty, if so return True
+        # write code to check if stack is empty, if so return True
     # otherwise return False
 
 
@@ -58,30 +62,37 @@ def isFull():
     else:
         return True
 
-    # write code to check if stack is full,
+        # write code to check if stack is full,
     # if so return True otherwise return False
 
 
 def main():
-    global stackPointer
-    global maxLength
-    global names
-
-    isEmpty()
-
-    if not isFull():
+    print("What would you like to do:\n1.push\n2.pop\n3.check if empty\n4.check if full")
+    answer = input()
+    if answer == "1":
         element = input("type something to add")
         push(element)
-        again = input("Would you like to add another element? y/n")
-        if again == "y":
-            main()
-        else:
-            print("Thank you for using my program!")
 
-    elif isFull():
-        print("Stack is full")
+    elif answer == "2":
+        pop()
+    elif answer == "3":
+        if isEmpty():
+            print("Stack is empty")
+        else:
+            print("Stack is not empty")
+
+    elif answer == "4":
+        if isFull():
+            print("Stack is full")
+        else:
+            print("Stack is not full")
+
+    again = input("would you like to go again? y/n")
+    if again == "y":
+        main()
+    else:
+        print("Thank you for using my program")
 
 
 main()
-
 
