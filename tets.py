@@ -14,22 +14,20 @@
 #
 # fun()
 
-board = [["a","a","a","a","a"],
-        ["a","a","a","a","a"],
-        ["a","a","a","a","a"],
-        ["B","B","B","B","a"]]
+board = [["a","a","a","B","a"],
+         ["a","a","B","a","a"],
+         ["a","B","a","a","a"],
+         ["B","a","a","a","a"]]
 
 colour = "B"
 for i in range(0, len(board)):
     print(board[i])
 
-for i in range(0,len(board)):
-    for l in range(0,len(board)):
-        if board[i][l] == colour and board[i][l + 1] == colour and board[i][l + 2] == colour and board[i][l + 3] == colour:
-            print("U win")
-
-
-
+for i in range(0, len(board)):
+    for l in range(0, 5):
+        if board[i][l] == colour and board[i + 1][l + 1] == colour and board[i + 2][l + 2] == colour and \
+                board[i + 3][l + 3] == colour:
+            print("true")
 
 # board = [["O", "O", "O", "O", "O", "O", "O"],
 #          ["O", "O", "O", "O", "O", "O", "O"],
