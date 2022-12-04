@@ -13,24 +13,26 @@ p1_name = ""
 colour1 = ""
 p2_name = ""
 colour2 = ""
-
+#global statements
 
 def show_board():
     global board
     for i in range(0, len(board)):
         print(board[i])
+    #show board through printing each array through for loops
 
 
 def data_entry():
     global p1_name, colour1, p2_name, colour2
     p1_name = input("Player 1, input your name")
     colour1 = input("Choose colour, R or Y")
-    p2_name = input("Player 2, input you name")
+    p2_name = input("\nPlayer 2, input you name")
     if colour1 == "R":
         colour2 = "Y"
     elif colour1 == "Y":
         colour2 = "R"
-    print(p2_name + ", you will be", colour2, "then")
+    print(p2_name + ", you will be", colour2, "then\n")
+
 
     # find the row value
     # convert "A" into number
@@ -66,49 +68,47 @@ def update_board(x, colour):
         stack_pointers[6] -= 1
 
 def is_winner(colour):
-    temp = 0
     for i in range(0,len(board)):
         for l in range(0,len(board)-1):
             if board[i][l] == colour and board[i][l + 1] == colour and board[i][l + 2] == colour and board[i][l + 3] == colour:
-                temp +=1
+                return True
 
     for i in range(0,len(board)):
         for l in range(0,len(board)-1):
             if board[i][l] == colour and board[i + 1][l] == colour and board[i + 2][l] == colour and board[i + 3][l] == colour:
-                temp +=1
-    if temp == 2:
-        return True
-    else:
-        return False
+                return True
 
 def play():
     attempt = 0
-    winner = is_winner(colour1)
+    winner = False
 
     while not winner:
         if attempt % 2 == 0:
-            attempt += 1
             column = input(p1_name + " please enter a column")
             update_board(column, colour1)
             show_board()
             winner = is_winner(colour1)
-            if winner:
-                print("WIN")
+
 
         else:
-            attempt += 1
             column = input(p2_name +" please enter a column")
             update_board(column, colour2)
             show_board()
             winner = is_winner(colour2)
-            if winner:
-                print("WIN")
+
+        attempt += 1
+
+
+    if attempt % 2 == 0:
+        print(p2_name, "WINS!!!!")
+
+    else:
+        print(p1_name, "WINS!!!!")
 
 
 def main():
     show_board()
     data_entry()
     play()
-
 
 main()
