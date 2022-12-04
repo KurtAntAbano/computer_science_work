@@ -66,11 +66,19 @@ def update_board(x, colour):
         stack_pointers[6] -= 1
 
 def is_winner(colour):
-
+    temp = 0
     for i in range(0,len(board)):
         for l in range(0,len(board)-1):
             if board[i][l] == colour and board[i][l + 1] == colour and board[i][l + 2] == colour and board[i][l + 3] == colour:
-                return True
+                temp +=1
+
+    for i in range(0,len(board)):
+        for l in range(0,len(board)-1):
+            if board[i][l] == colour and board[i + 1][l] == colour and board[i + 2][l] == colour and board[i + 3][l] == colour:
+                temp +=1
+    if temp == 2:
+        return True
+    else:
         return False
 
 def play():
@@ -78,21 +86,23 @@ def play():
     winner = is_winner(colour1)
 
     while not winner:
-        winner = is_winner(colour1)
         if attempt % 2 == 0:
             attempt += 1
             column = input(p1_name + " please enter a column")
             update_board(column, colour1)
             show_board()
-            # winner = is_winner(colour1)
-            # if winner:
-            #     print("WIN")
+            winner = is_winner(colour1)
+            if winner:
+                print("WIN")
 
         else:
             attempt += 1
             column = input(p2_name +" please enter a column")
             update_board(column, colour2)
             show_board()
+            winner = is_winner(colour2)
+            if winner:
+                print("WIN")
 
 
 def main():
