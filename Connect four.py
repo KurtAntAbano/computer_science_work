@@ -13,25 +13,25 @@ p1_name = ""
 colour1 = ""
 p2_name = ""
 colour2 = ""
-#global statements
 
 def show_board():
     global board
     for i in range(0, len(board)):
-        print(board[i])
-    #show board through printing each array through for loops
+        print(' '.join(board[i]))
 
 
 def data_entry():
     global p1_name, colour1, p2_name, colour2
-    p1_name = input("Player 1, input your name")
+    p1_name = input("\nPlayer 1, input your name")
     colour1 = input("Choose colour, R or Y")
     p2_name = input("\nPlayer 2, input you name")
     if colour1 == "R":
+        #colour1 = "\033[1;31m R \033[m"
         colour2 = "Y"
     elif colour1 == "Y":
+        #colour1 = "\033[1;33m Y \033[m"
         colour2 = "R"
-    print(p2_name + ", you will be", colour2, "then\n")
+    print(p2_name + ", you will be", colour2, "then")
 
 
     # find the row value
@@ -68,22 +68,22 @@ def update_board(x, colour):
         stack_pointers[6] -= 1
 
 def is_winner(colour):
+    #horizontal check
     for i in range(0,len(board)):
-        for l in range(0,len(board)-1):
+        for l in range(0, 4):
             if board[i][l] == colour and board[i][l + 1] == colour and board[i][l + 2] == colour and board[i][l + 3] == colour:
                 return True
-
-    for i in range(0,len(board)):
-        for l in range(0,len(board)-1):
+    #vertical check
+    for i in range(0,5):
+        for l in range(0, len(board) - 1 ):
             if board[i][l] == colour and board[i + 1][l] == colour and board[i + 2][l] == colour and board[i + 3][l] == colour:
                 return True
 
-    # for i in range(0,len(board)):
-    #     for l in range(0,len(board)-1):
+    #diagonal check (WIP)
+    # for i in range(3,len(board)):
+    #     for l in range(0,4):
     #         if board[i][l] == colour and board[i + 1][l + 1] == colour and board[i + 2][l + 2] == colour and board[i + 3][l + 3] == colour:
     #             return True
-
-
 
 
 def play():
@@ -92,14 +92,14 @@ def play():
 
     while not winner:
         if attempt % 2 == 0:
-            column = input(p1_name + " please enter a column")
+            column = input("\n"+p1_name + " please enter a column")
             update_board(column, colour1)
             show_board()
             winner = is_winner(colour1)
 
 
         else:
-            column = input(p2_name +" please enter a column")
+            column = input("\n"+p2_name +" please enter a column")
             update_board(column, colour2)
             show_board()
             winner = is_winner(colour2)
