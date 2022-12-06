@@ -35,7 +35,7 @@ def data_entry():
     elif colour1 == "Y":
         colour1 = "\033[1;33mY\033[m"
         colour2 = "\033[1;31mR\033[m"
-    print(p2_name + ", you will be", colour2, "then")
+    print(f"{p2_name}, you will be {colour2} then")
 
 
     # find the row value
