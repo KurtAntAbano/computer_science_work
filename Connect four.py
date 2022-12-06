@@ -1,13 +1,13 @@
 import colors as c
 
-board = [["O", "O", "O", "O", "O", "O", "O"],
-         ["O", "O", "O", "O", "O", "O", "O"],
-         ["O", "O", "O", "O", "O", "O", "O"],
-         ["O", "O", "O", "O", "O", "O", "O"],
-         ["O", "O", "O", "O", "O", "O", "O"],
-         ["O", "O", "O", "O", "O", "O", "O"],
-         ["O", "O", "O", "O", "O", "O", "O"],
-         ["A", "B", "C", "D", "E", "F", "G"]]
+board = [["O ", "O ", "O ", "O ", "O ", "O ", "O "],
+         ["O ", "O ", "O ", "O ", "O ", "O ", "O "],
+         ["O ", "O ", "O ", "O ", "O ", "O ", "O "],
+         ["O ", "O ", "O ", "O ", "O ", "O ", "O "],
+         ["O ", "O ", "O ", "O ", "O ", "O ", "O "],
+         ["O ", "O ", "O ", "O ", "O ", "O ", "O "],
+         ["O ", "O ", "O ", "O ", "O ", "O ", "O "],
+         ["A ", "B ", "C ", "D ", "E ", "F ", "G "]]
 
 stack_pointers = [6, 6, 6, 6, 6, 6, 6]
 
@@ -30,11 +30,11 @@ def data_entry():
     colour1 = input("Choose colour, R or Y")
     p2_name = input("\nPlayer 2, input you name")
     if colour1 == "R":
-        colour1 = f"{c.red}R{c.norm}"
-        colour2 = f"{c.yellow}Y{c.norm}"
+        colour1 = f"{c.red}R {c.norm}"
+        colour2 = f"{c.yellow}Y {c.norm}"
     elif colour1 == "Y":
-        colour1 = f"{c.yellow}Y{c.norm}"
-        colour2 = f"{c.red}R{c.norm}"
+        colour1 = f"{c.yellow}Y {c.norm}"
+        colour2 = f"{c.red}R {c.norm}"
     print(f"{p2_name}, you will be {colour2} then")
 
 
