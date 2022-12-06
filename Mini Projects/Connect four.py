@@ -1,11 +1,13 @@
-board = [["O", "O", "O", "O", "O", "O", "O"],
-         ["O", "O", "O", "O", "O", "O", "O"],
-         ["O", "O", "O", "O", "O", "O", "O"],
-         ["O", "O", "O", "O", "O", "O", "O"],
-         ["O", "O", "O", "O", "O", "O", "O"],
-         ["O", "O", "O", "O", "O", "O", "O"],
-         ["O", "O", "O", "O", "O", "O", "O"],
-         ["A", "B", "C", "D", "E", "F", "G"]]
+import colors as c
+
+board = [["O ", "O ", "O ", "O ", "O ", "O ", "O "],
+         ["O ", "O ", "O ", "O ", "O ", "O ", "O "],
+         ["O ", "O ", "O ", "O ", "O ", "O ", "O "],
+         ["O ", "O ", "O ", "O ", "O ", "O ", "O "],
+         ["O ", "O ", "O ", "O ", "O ", "O ", "O "],
+         ["O ", "O ", "O ", "O ", "O ", "O ", "O "],
+         ["O ", "O ", "O ", "O ", "O ", "O ", "O "],
+         ["A ", "B ", "C ", "D ", "E ", "F ", "G "]]
 
 stack_pointers = [6, 6, 6, 6, 6, 6, 6]
 
@@ -19,6 +21,8 @@ def show_board():
     for i in range(0, len(board)):
         print(' '.join(board[i]))
 
+variable1 = 3
+print(f"Your Variable is {variable1} Hello")
 
 def data_entry():
     global p1_name, colour1, p2_name, colour2
@@ -26,12 +30,12 @@ def data_entry():
     colour1 = input("Choose colour, R or Y")
     p2_name = input("\nPlayer 2, input you name")
     if colour1 == "R":
-        #colour1 = "\033[1;31m R \033[m"
-        colour2 = "Y"
+        colour1 = f"{c.red}R {c.norm}"
+        colour2 = f"{c.yellow}Y {c.norm}"
     elif colour1 == "Y":
-        #colour1 = "\033[1;33m Y \033[m"
-        colour2 = "R"
-    print(p2_name + ", you will be", colour2, "then")
+        colour1 = f"{c.yellow}Y {c.norm}"
+        colour2 = f"{c.red}R {c.norm}"
+    print(f"{p2_name}, you will be {colour2} then")
 
 
     # find the row value
@@ -92,14 +96,14 @@ def play():
 
     while not winner:
         if attempt % 2 == 0:
-            column = input("\n"+p1_name + " please enter a column")
+            column = input(f"\n{p1_name} please enter a column")
             update_board(column, colour1)
             show_board()
             winner = is_winner(colour1)
 
 
         else:
-            column = input("\n"+p2_name +" please enter a column")
+            column = input(f"\n{p2_name} +please enter a column")
             update_board(column, colour2)
             show_board()
             winner = is_winner(colour2)
