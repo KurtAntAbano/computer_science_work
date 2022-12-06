@@ -30,11 +30,11 @@ def data_entry():
     colour1 = input("Choose colour, R or Y")
     p2_name = input("\nPlayer 2, input you name")
     if colour1 == "R":
-        colour1 = "\033[1;31mR\033[m"
-        colour2 = "\033[1;33mY\033[m"
+        colour1 = f"{c.red}R{c.norm}"
+        colour2 = f"{c.yellow}Y{c.norm}"
     elif colour1 == "Y":
-        colour1 = "\033[1;33mY\033[m"
-        colour2 = "\033[1;31mR\033[m"
+        colour1 = f"{c.yellow}Y{c.norm}"
+        colour2 = f"{c.red}R{c.norm}"
     print(f"{p2_name}, you will be {colour2} then")
 
 
