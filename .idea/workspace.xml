@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0d26dcd-8c33-4419-8991-71aa23d09afd" name="Changes" comment="l">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_12_2022_19_33__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_12_2022_19_33__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_12_2022_19_22__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_12_2022_19_22__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_12_2022_19_25__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_12_2022_19_25__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colors.py" beforeDir="false" afterPath="$PROJECT_DIR$/colors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connect four.py" beforeDir="false" afterPath="$PROJECT_DIR$/Connect four.py" afterDir="false" />
     </list>
     <list id="7a72fdd9-61aa-44c7-8611-2d33fdda92be" name="Changes by A29685" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +44,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Console Colors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.Date Validation (Working">
+  <component name="RunManager" selected="Python.Connect four">
     <configuration name="Connect four" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,8 +157,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Date Validation (Working" />
         <item itemvalue="Python.Connect four" />
+        <item itemvalue="Python.Date Validation (Working" />
         <item itemvalue="Python.date validation" />
         <item itemvalue="Python.fibinachi desu" />
         <item itemvalue="Python.circular queue using arrays  (1)" />
@@ -197,7 +194,7 @@
       <workItem from="1669890621414" duration="3334000" />
       <workItem from="1669993356465" duration="2957000" />
       <workItem from="1670323482462" duration="248000" />
-      <workItem from="1670323741989" duration="4262000" />
+      <workItem from="1670323741989" duration="5023000" />
     </task>
     <task id="LOCAL-00001" summary="yes">
       <created>1666090392490</created>
@@ -353,7 +350,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670327422703</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="l">
+      <created>1670328080874</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1670328080874</updated>
+    </task>
+    <task id="LOCAL-00024" summary="l">
+      <created>1670328507849</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1670328507849</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,7 +399,7 @@
     <SUITE FILE_PATH="coverage/Python_challenges$STACK_BY_USING_ARRAYS.coverage" NAME="STACK BY USING ARRAYS Coverage Results" MODIFIED="1669724263910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_challenges$Polybius.coverage" NAME="Polybius Coverage Results" MODIFIED="1669114145118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_challenges$circular_queue_using_arrays___1_.coverage" NAME="circular queue using arrays  (1) Coverage Results" MODIFIED="1669896167946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_challenges$Connect_four.coverage" NAME="Connect four Coverage Results" MODIFIED="1670327152702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_challenges$Connect_four.coverage" NAME="Connect four Coverage Results" MODIFIED="1670328812861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_challenges$calculator.coverage" NAME="calculator Coverage Results" MODIFIED="1665658329839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_challenges$ascii.coverage" NAME="ascii Coverage Results" MODIFIED="1665485719424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_challenges$Date_validation.coverage" NAME="Date validation Coverage Results" MODIFIED="1668515388284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
