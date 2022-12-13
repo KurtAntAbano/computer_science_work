@@ -1,4 +1,4 @@
-import colors as c
+from to_import import colors as c
 
 board = [["O ", "O ", "O ", "O ", "O ", "O ", "O "],
          ["O ", "O ", "O ", "O ", "O ", "O ", "O "],
