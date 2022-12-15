@@ -5,8 +5,6 @@ def factorial (n):
         return (n*factorial(n-1))
 
 
-
-
 def factorial_it(n):
     count = 1
     while n > 1:
