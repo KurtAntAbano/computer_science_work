@@ -1,5 +1,4 @@
 import tkinter as tk
-#window = tk.Tk()
 
 def createDict():
     # declaring all lists and dictionaries are global
