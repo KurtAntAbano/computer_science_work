@@ -82,51 +82,18 @@
 # button3.pack()
 #
 # window.mainloop()
+colourDict = {"Black": 0, "Brown": 1, "Red": 2, "Orange": 3, "Yellow": 4,
+              "Green": 5, "Blue": 6, "Violet": 7, "Grey": 8, "White": 9,
+              "Gold": 0, "Silver": 0, "No Band": 0}
 
-import tkinter as tk
-import random
+# colours = list(colourDict)
+#
+# window = tk.Tk()
+# for i in range(13):
+#     button[i] = tk.Button(window, text=colours[i], command=colour_append)
+#     button[i].pack()
+# window.mainloop()
 
-# The Monty Hall problem game
-
-def play_game():
-    # Randomly select the winning door
-    winning_door = random.randint(1, 3)
-
-    # Randomly select the door chosen by the player
-    chosen_door = random.randint(1, 3)
-
-    # Monty Hall opens a door that is not the winning door and not the chosen door
-    opened_door = random.choice([door for door in range(1, 4) if door != winning_door and door != chosen_door])
-
-    # Calculate the door that remains closed
-    closed_door = [door for door in range(1, 4) if door != opened_door and door != chosen_door][0]
-
-    # Calculate the probability of winning if the player sticks with their original choice
-    probability_staying = 1 if chosen_door == winning_door else 0
-
-    # Calculate the probability of winning if the player switches to the closed door
-    probability_switching = 1 if closed_door == winning_door else 0
-
-    # Display the results
-    result_text.set(f"Winning door: {winning_door}\n"
-                    f"Chosen door: {chosen_door}\n"
-                    f"Opened door: {opened_door}\n"
-                    f"Closed door: {closed_door}\n"
-                    f"Probability of winning if staying: {probability_staying}\n"
-                    f"Probability of winning if switching: {probability_switching}")
-
-# Create the main window
 window = tk.Tk()
-window.title("Monty Hall Problem")
+b1 = tk.Button(window,text = "Black")
 
-# Add a button widget to start the game
-play_button = tk.Button(text="Play", command=play_game)
-play_button.pack()
-
-# Add a text widget to display the results
-result_text = tk.StringVar()
-result_label = tk.Label(textvariable=result_text)
-result_label.pack()
-
-# Start the GUI event loop
-window.mainloop()
