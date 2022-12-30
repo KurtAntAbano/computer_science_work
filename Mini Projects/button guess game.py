@@ -30,11 +30,11 @@ def main():
 
     window = tk.Tk()
 
-    button1 = tk.Button(window, text="1", command=lambda: check(layout[0],window))
+    button1 = tk.Button(window, text="Door 1", command=lambda: check(layout[0],window))
     button1.pack()
-    button2 = tk.Button(window, text="2", command=lambda: check(layout[1],window))
+    button2 = tk.Button(window, text="Door 2", command=lambda: check(layout[1],window))
     button2.pack()
-    button3 = tk.Button(window, text="3", command=lambda: check(layout[2],window))
+    button3 = tk.Button(window, text="Door 3", command=lambda: check(layout[2],window))
     button3.pack()
 
     window.mainloop()
