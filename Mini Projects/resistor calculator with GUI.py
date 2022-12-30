@@ -28,17 +28,23 @@ def createDict():
     multDict["Gold"] = 0.1  # adding more keys and values to the dictionary
     multDict["Silver"] = 0.01  # adding more keys and values to the dictionary
 
-def colour_append(colour, entColours):
+def colour_append(colour, entColours,window):
     global n
     entColours.append(colour)
     print(f"Band {n+1} is {colour}")
     if n == 4:
-        print("Please exit the GUI to continue")
-        n += 1
-    elif n > 4:
-        print("hey i said close the GUI")
+        window.destroy()
     else:
-        n +=1
+        n += 1
+
+def again():
+    continue_win = tk.Tk()
+    button1 = tk.Button(continue_win, text="i would like to continue", command= lambda:[continue_win.destroy(),main()])
+    button1.pack()
+    button2 = tk.Button(continue_win, text="i would like to leave", command=exit)
+    button2.pack()
+
+    continue_win.mainloop()
 
 def enterColours():
     global entColours
@@ -48,31 +54,31 @@ def enterColours():
     n = 0
 
     print("PLEASE ENTER THE CCOLOUR OF THE BANDS UP TO 5\n")
-    b = tk.Button(window, text="Black", command=lambda: colour_append("Black", entColours))
+    b = tk.Button(window, text="Black", command=lambda: colour_append("Black", entColours,window))
     b.pack()
-    b = tk.Button(window, text="Brown", command=lambda: colour_append("Brown", entColours))
+    b = tk.Button(window, text="Brown", command=lambda: colour_append("Brown", entColours, window))
     b.pack()
-    b = tk.Button(window, text="Red", command=lambda: colour_append("Red", entColours))
+    b = tk.Button(window, text="Red", command=lambda: colour_append("Red", entColours, window))
     b.pack()
-    b = tk.Button(window, text="Orange", command=lambda: colour_append("Orange", entColours))
+    b = tk.Button(window, text="Orange", command=lambda: colour_append("Orange", entColours, window))
     b.pack()
-    b = tk.Button(window, text="Yellow", command=lambda: colour_append("Yellow", entColours))
+    b = tk.Button(window, text="Yellow", command=lambda: colour_append("Yellow", entColours, window))
     b.pack()
-    b = tk.Button(window, text="Green", command=lambda: colour_append("Green", entColours))
+    b = tk.Button(window, text="Green", command=lambda: colour_append("Green", entColours, window))
     b.pack()
-    b = tk.Button(window, text="Blue", command=lambda: colour_append("Blue", entColours))
+    b = tk.Button(window, text="Blue", command=lambda: colour_append("Blue", entColours,window))
     b.pack()
-    b = tk.Button(window, text="Violet", command=lambda: colour_append("Violet", entColours))
+    b = tk.Button(window, text="Violet", command=lambda: colour_append("Violet", entColours, window))
     b.pack()
-    b = tk.Button(window, text="Grey", command=lambda: colour_append("Grey", entColours))
+    b = tk.Button(window, text="Grey", command=lambda: colour_append("Grey", entColours, window))
     b.pack()
-    b = tk.Button(window, text="White", command=lambda: colour_append("White", entColours))
+    b = tk.Button(window, text="White", command=lambda: colour_append("White", entColours, window))
     b.pack()
-    b = tk.Button(window, text="Gold", command=lambda: colour_append("Gold", entColours))
+    b = tk.Button(window, text="Gold", command=lambda: colour_append("Gold", entColours, window))
     b.pack()
-    b = tk.Button(window, text="Silver", command=lambda: colour_append("Silver", entColours))
+    b = tk.Button(window, text="Silver", command=lambda: colour_append("Silver", entColours, window))
     b.pack()
-    b = tk.Button(window, text="No Band", command=lambda: colour_append("No Band", entColours))
+    b = tk.Button(window, text="No Band", command=lambda: colour_append("No Band", entColours, window))
     b.pack()
 
     window.mainloop()
@@ -132,6 +138,7 @@ def main():
 
 
     print(resistor(entColours))
+    again()
 
 main()
 
