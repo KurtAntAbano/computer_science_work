@@ -32,6 +32,9 @@ def how_much_change(item):
         print(f"your change is {change}")
         which_penny()
         print(f"coins you will need:{coins}")
+        # print(f"That will be:")
+        # for i in range(0, len(coins)):
+        #     print(coins[i], "p")
 
 
 def main():
