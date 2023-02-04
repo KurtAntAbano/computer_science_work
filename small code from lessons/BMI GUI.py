@@ -1,6 +1,9 @@
 from tkinter import *
+from tkinter import messagebox
+
+
 #this allows the program to access tkinter
-from tkinter import *
+
 def CreateGUI():
 
     form = Tk()
@@ -29,16 +32,37 @@ def CreateGUI():
     exitbutton = Button(form, text = "EXIT", width = 12, command = quit)
     exitbutton.grid(row=3, column=0, padx=10, pady=10)
 
-    clearbutton = Button(form, text="Clear", width=12)
+    clearbutton = Button(form, text="Clear", width=12, command = lambda :[clear(weightentry, heightentry)])
     clearbutton.grid(row=3, column=1, padx=10, pady=10)
 
-    calcbutton = Button(form, text = "Calculate", width = 12)
+    calcbutton = Button(form, text = "Calculate", width = 12, command=lambda:[calculate(form, weightentry, heightentry)])
     calcbutton.grid(row = 3, column = 2, padx = 10, pady =10)
 
-
-def calculate():
-    weight = weightentry.get()
-
+    weightentry.focus()
     form.mainloop()
+
+def calculate(form, w, h):
+    w = float(w.get())
+    h = float(h.get())
+    BMI = w/(h*h)
+    result = ("your BMI is"+ str(BMI))
+    messagebox.showinfo(title = "BMI value", message = result)
+    msgbox = messagebox.askquestion(title = "continue...", message = "would you like to continue?")
+    if msgbox == "yes":
+        form.destroy()
+        CreateGUI()
+    else:
+        quit()
+
+def clear(e1, e2):
+    e1.delete(0, "end")
+    e2.delete(0, "end")
+    e1.focus()
+
+
+
+
+
+
 
 CreateGUI()
