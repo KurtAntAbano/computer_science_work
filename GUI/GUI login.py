@@ -88,7 +88,7 @@ def signin(w):# win1 named w so that its easier to trace
     password_reentry.grid(row=4, column=1, padx=10, pady=10, sticky="E")
 
 
-    createbutton = Button(win3, text="create account", width=12, command = lambda: validation(username_entry, password_entry, password_reentry ))
+    createbutton = Button(win3, text="create account", width=12, command = lambda: validation(win3, username_entry, password_entry, password_reentry ))
     createbutton.grid(row=5, column=1, padx=10, pady=10)
 
     backButton = Button(win3, text="Back", command=lambda: back(win3))# passes the current window
@@ -96,24 +96,38 @@ def signin(w):# win1 named w so that its easier to trace
 
     mainloop()
 
-def validation(u, p, rp):
-    if is_empty_check(u, p, rp) and is_the_same(p, rp):
-        print("error")
+def validation(w, u, p, rp):
+    if is_empty_check(w, u, p, rp): #and is_the_same(w, p, rp):
+        print("validation succesful")
 
 
-def is_empty_check(u, p, rp):
-    u = u.get()
+
+def is_empty_check(w, u, p, rp):
+    u = str(u.get())
+    p = str(p.get())
+    rp = str(rp.get())
+
+
+    if u == "" or p == "" or rp == "":
+        messagebox.showinfo(title="ERROR", message= "*Please make sure all fields are completed ")
+        signin(w)
+
+    else:
+        print("is not empty")
+        return True
+
+
+
+
+def is_the_same(w, p, rp):
     p = p.get()
     rp = rp.get()
 
-    if u or p or rp == "":
-        messagebox.showinfo(title="ERROR", message=" not all fields completed")
-
-
-    pass
-
-def is_the_same():
-    pass
+    if p == rp:
+        return True
+    else:
+        messagebox.showinfo(title="ERROR", message=" passwords do not match")
+        signin(w)
 
 
 
