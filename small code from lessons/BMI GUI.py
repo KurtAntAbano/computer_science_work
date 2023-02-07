@@ -36,13 +36,14 @@ def CreateGUI():
     clearbutton.grid(row=3, column=1, padx=10, pady=10)
 
     calcbutton = Button(form, text = "Calculate", width = 12, command=lambda:[calculate(form, weightentry, heightentry)])
+    #Object is passed
     calcbutton.grid(row = 3, column = 2, padx = 10, pady =10)
 
     weightentry.focus()
     form.mainloop()
 
 def calculate(form, w, h):
-    w = float(w.get())
+    w = float(w.get()) #.get() extracts the values of the objects passed
     h = float(h.get())
     BMI = w/(h*h)
     result = ("your BMI is"+ str(BMI))
