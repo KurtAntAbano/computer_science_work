@@ -1,4 +1,4 @@
-import tkinter
+import os
 from tkinter import *
 from tkinter import messagebox
 
@@ -53,7 +53,7 @@ def login(w):
     password_entry = Entry(win2, width=30)
     password_entry.grid(row=3, column=1, padx=10, pady=10, sticky="E")
 
-    loginbutton = Button(win2, text="login", width=12) # command = lambda: ...
+    loginbutton = Button(win2, text="login", width=12, command = lambda: login_verify(username_entry,  password_entry))
     loginbutton.grid(row=4, column=1, padx=10, pady=10)
 
     backButton = Button(win2, text="Back", command=lambda: back(win2))# passes the current window
@@ -97,37 +97,61 @@ def signin(w):# win1 named w so that its easier to trace
     mainloop()
 
 def validation(w, u, p, rp):
-    if is_empty_check(w, u, p, rp): #and is_the_same(w, p, rp):
+    u = u.get()
+    p = p.get()
+    rp = rp.get()
+    if is_empty_check(w, u, p, rp) and is_the_same(w, p, rp):
         print("validation succesful")
+        save_password(u, p)
+
 
 
 
 def is_empty_check(w, u, p, rp):
-    u = str(u.get())
-    p = str(p.get())
-    rp = str(rp.get())
-
-
     if u == "" or p == "" or rp == "":
         messagebox.showinfo(title="ERROR", message= "*Please make sure all fields are completed ")
         signin(w)
 
     else:
-        print("is not empty")
         return True
 
 
-
-
 def is_the_same(w, p, rp):
-    p = p.get()
-    rp = rp.get()
 
     if p == rp:
         return True
     else:
         messagebox.showinfo(title="ERROR", message=" passwords do not match")
         signin(w)
+
+
+def save_password(username, password):
+
+    f = open("user_data", "w")
+    f.write(username)
+    f.write("")
+    f.write(password)
+    f.close()
+
+    # f = open("user_data", "r")
+    # print(f.read())
+
+
+def login_verify(username, password):
+    # get username and password
+
+    username1 = username.get()
+    password1 = password.get()
+
+    # The method listdir() returns a list containing the names of the entries in the directory given by path.
+    list_of_files = os.listdir()
+
+    # defining verification's conditions
+    if username1 in list_of_files:
+        file1 = open(username1, "r")
+        verify = file1.read().splitlines()
+
+
 
 
 
