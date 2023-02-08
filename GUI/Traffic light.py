@@ -1,7 +1,5 @@
 from tkinter import *
 
-from Tools.scripts.var_access_benchmark import C
-
 userForm=Tk()
 userForm.title("Testing GUI")
 userForm.geometry("70x200")
@@ -19,7 +17,7 @@ def timer1():
 def setLights():
     global timerTicks
     if timerTicks>18:
-        timerTicks=0
+        timerTicks=19
     elif timerTicks>15:
         turnRedAmber()
     elif timerTicks>12:
@@ -28,6 +26,7 @@ def setLights():
         turnAmber()
     else:
         turnGreen()
+
 
 
 def turnRed():
@@ -58,8 +57,11 @@ def turnOff():
     C.itemconfig(cRed, fill=Lights[0])
     C.itemconfig(cAmber, fill=Lights[0])
     C.itemconfig(cGreen, fill=Lights[0])
-    C = Canvas(userForm, bg="grey", height=170, width=70)
-    
+
+
+
+
+C = Canvas(userForm, bg="grey", height=170, width=70)
 #coord = 10, 50, 240, 210
 Top=10
 Left=10
@@ -73,5 +75,8 @@ turnOff()
 lblTimer=Label(userForm)
 lblTimer.pack()
 timer1()
-    
+
+
 userForm.mainloop()
+
+
