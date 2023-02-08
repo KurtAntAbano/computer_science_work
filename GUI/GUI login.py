@@ -53,7 +53,7 @@ def login(w):
     password_entry = Entry(win2, width=30)
     password_entry.grid(row=3, column=1, padx=10, pady=10, sticky="E")
 
-    loginbutton = Button(win2, text="login", width=12, command = lambda: login_verify(username_entry,  password_entry))
+    loginbutton = Button(win2, text="login", width=12, command = lambda: login_verify(win2, username_entry,  password_entry))
     loginbutton.grid(row=4, column=1, padx=10, pady=10)
 
     backButton = Button(win2, text="Back", command=lambda: back(win2))# passes the current window
@@ -101,9 +101,7 @@ def validation(w, u, p, rp):
     p = p.get()
     rp = rp.get()
     if is_empty_check(w, u, p, rp) and is_the_same(w, p, rp):
-        print("validation succesful")
-        save_password(u, p)
-
+        save_password(w, u, p)
 
 
 
@@ -117,7 +115,6 @@ def is_empty_check(w, u, p, rp):
 
 
 def is_the_same(w, p, rp):
-
     if p == rp:
         return True
     else:
@@ -125,35 +122,33 @@ def is_the_same(w, p, rp):
         signin(w)
 
 
-def save_password(username, password):
+def save_password(w, username, password):
 
     f = open("user_data", "w")
-    f.write(username)
-    f.write("")
-    f.write(password)
+    details = (username+password)
+    f.write(details)
     f.close()
 
-    # f = open("user_data", "r")
-    # print(f.read())
+    messagebox.showinfo(title="Success", message="*Username and Password is now registered")
+    w.destroy()
+    main()
 
 
-def login_verify(username, password):
-    # get username and password
+
+def login_verify(w, username, password):
 
     username1 = username.get()
     password1 = password.get()
 
-    # The method listdir() returns a list containing the names of the entries in the directory given by path.
-    list_of_files = os.listdir()
-
-    # defining verification's conditions
-    if username1 in list_of_files:
-        file1 = open(username1, "r")
-        verify = file1.read().splitlines()
-
-
-
-
+    login_details = username1 + password1
+    f = open("user_data", "r")
+    content = f.read()
+    if login_details in content:
+        messagebox.showinfo(title="Success", message="Login successful")
+    else:
+        messagebox.showinfo(title="ERROR", message="*Username or password does not match!")
+        w.destroy()
+        main()
 
 
 main()
