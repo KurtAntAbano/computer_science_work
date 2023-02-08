@@ -118,7 +118,7 @@ def is_the_same(w, p, rp):
     if p == rp:
         return True
     else:
-        messagebox.showinfo(title="ERROR", message=" passwords do not match")
+        messagebox.showinfo(title="ERROR", message="*Passwords do not match")
         signin(w)
 
 
@@ -144,7 +144,7 @@ def login_verify(w, username, password):
     f = open("user_data", "r")
     content = f.read()
     if login_details in content:
-        messagebox.showinfo(title="Success", message="Login successful")
+        messagebox.showinfo(title="Success", message="*Login successful")
     else:
         messagebox.showinfo(title="ERROR", message="*Username or password does not match!")
         w.destroy()
