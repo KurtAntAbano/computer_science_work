@@ -1,4 +1,3 @@
-import os
 from tkinter import *
 from tkinter import messagebox
 
@@ -104,7 +103,6 @@ def validation(w, u, p, rp):
         save_password(w, u, p)
 
 
-
 def is_empty_check(w, u, p, rp):
     if u == "" or p == "" or rp == "":
         messagebox.showinfo(title="ERROR", message= "*Please make sure all fields are completed ")
@@ -126,13 +124,12 @@ def save_password(w, username, password):
 
     f = open("user_data", "w")
     details = (username+password)
-    f.write(details)
+    f.write(details) # saves details on a text file that will be referenced later
     f.close()
 
     messagebox.showinfo(title="Success", message="*Username and Password is now registered")
     w.destroy()
     main()
-
 
 
 def login_verify(w, username, password):
@@ -143,7 +140,7 @@ def login_verify(w, username, password):
     login_details = username1 + password1
     f = open("user_data", "r")
     content = f.read()
-    if login_details in content:
+    if login_details in content: # checks of the login details are in the text file, 'user_data'
         messagebox.showinfo(title="Success", message="*Login successful")
     else:
         messagebox.showinfo(title="ERROR", message="*Username or password does not match!")
