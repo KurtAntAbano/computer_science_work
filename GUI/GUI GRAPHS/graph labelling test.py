@@ -5,8 +5,8 @@ x = [10, 20, 30, 40]
 y = [20, 30, 40, 50]
 
 # plotting the data
-plt.plot(x, color='green', label="test")
-plt.plot(y, color='red', label="testred")
+plt.plot(x, color='green')
+plt.plot(y, color='red')
 
 
 
