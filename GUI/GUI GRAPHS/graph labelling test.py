@@ -5,8 +5,8 @@ x = [10, 20, 30, 40]
 y = [20, 30, 40, 50]
 
 # plotting the data
-plt.plot(x, color='green', label="test")
-plt.plot(y, color='red', label="testred")
+plt.plot(x, y, color='green', label = "green")
+plt.plot(x, y, color='red', label = "red")
 
 
 
@@ -16,5 +16,6 @@ plt.title("Simple Plot")
 # Adding the labels
 plt.ylabel("y-axis")
 plt.xlabel("x-axis")
-plt.show()
 plt.legend()
+#.legend shows the key top left
+plt.show()
