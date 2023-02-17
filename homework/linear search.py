@@ -9,6 +9,5 @@ def linear_search(data_set, item_sought):
         i = i + 1
     return index
 
-print(linear_search([200,12,34,543,342,55,800], 543))
 
-
+print(linear_search([200, 12, 34, 543, 342, 55, 800], 800))
