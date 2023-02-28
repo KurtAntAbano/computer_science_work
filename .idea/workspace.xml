@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d26dcd-8c33-4419-8991-71aa23d09afd" name="Changes" comment="l">
-      <change afterPath="$PROJECT_DIR$/small code from lessons/Algorithms worksheet 1 files/algorithms worksheet 1 GRAPH iterative memory.py" afterDir="false" />
+    <list default="true" id="c0d26dcd-8c33-4419-8991-71aa23d09afd" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/Python challenges.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python challenges.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/small code from lessons/Algorithms worksheet 1.py" beforeDir="false" afterPath="$PROJECT_DIR$/small code from lessons/Algorithms worksheet 1 files/Algorithms worksheet 1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/small code from lessons/algorithms worksheet 1 GRAPH.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/small code from lessons/findig repeated items.py" beforeDir="false" afterPath="$PROJECT_DIR$/small code from lessons/findig repeated items.py" afterDir="false" />
     </list>
-    <list id="7a72fdd9-61aa-44c7-8611-2d33fdda92be" name="Changes by A29685" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +54,7 @@
       <recent name="C:\Users\ka041\computer_science_work\Mini Projects" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.linear search">
+  <component name="RunManager" selected="Python.findig repeated items">
     <configuration name="algorithms worksheet 1 GRAPH iterative memory" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,7 +77,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="graph labelling test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="findig repeated items" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,12 +85,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GUI/GUI GRAPHS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/small code from lessons" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI/GUI GRAPHS/graph labelling test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/small code from lessons/findig repeated items.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -102,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="linear plot bangledesh" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="finding repeated items dictionary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,12 +106,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GUI/GUI GRAPHS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/small code from lessons" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI/GUI GRAPHS/linear plot bangledesh.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/small code from lessons/finding repeated items dictionary.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.findig repeated items" />
+        <item itemvalue="Python.finding repeated items dictionary" />
         <item itemvalue="Python.linear search" />
         <item itemvalue="Python.algorithms worksheet 1 GRAPH iterative memory" />
         <item itemvalue="Python.tab creation example" />
-        <item itemvalue="Python.graph labelling test" />
-        <item itemvalue="Python.linear plot bangledesh" />
       </list>
     </recent_temporary>
   </component>
@@ -527,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676230096140</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="update">
+      <created>1677604576484</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1677604576484</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,49 +571,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python_challenges$Arithmitic_hw.coverage" NAME="Arithmitic hw Coverage Results" MODIFIED="1666089726349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_challenges$dictionary.coverage" NAME="dictionary Coverage Results" MODIFIED="1668178513803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/computer_science_work$tr.coverage" NAME="tr Coverage Results" MODIFIED="1675941976772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI" />
-    <SUITE FILE_PATH="coverage/Python_challenges$factorial_iterative.coverage" NAME="factorial iterative Coverage Results" MODIFIED="1671102184575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/small code from lessons" />
-    <SUITE FILE_PATH="coverage/computer_science_work$GUI_login.coverage" NAME="GUI login Coverage Results" MODIFIED="1675773067154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI" />
-    <SUITE FILE_PATH="coverage/computer_science_work$Algorithms_worksheet_1.coverage" NAME="Algorithms worksheet 1 Coverage Results" MODIFIED="1676376447780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/small code from lessons" />
-    <SUITE FILE_PATH="coverage/computer_science_work$algorithms_worksheet_1_GRAPH_iterative_memory.coverage" NAME="algorithms worksheet 1 GRAPH iterative memory Coverage Results" MODIFIED="1676377455986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/small code from lessons/Algorithms worksheet 1 files" />
-    <SUITE FILE_PATH="coverage/computer_science_work$GUI_login__1_.coverage" NAME="GUI login (1) Coverage Results" MODIFIED="1675940728620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI/GUI LOGIN files" />
-    <SUITE FILE_PATH="coverage/Python_challenges$Happy_numbers.coverage" NAME="Happy numbers Coverage Results" MODIFIED="1666088763047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_challenges$counting_dictionaries.coverage" NAME="counting dictionaries Coverage Results" MODIFIED="1668512642886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_challenges$list_filter_.coverage" NAME="list filter] Coverage Results" MODIFIED="1670329170516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_challenges$XOR.coverage" NAME="XOR Coverage Results" MODIFIED="1667474198081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/computer_science_work$algorithms_worksheet_1_GRAPH.coverage" NAME="algorithms worksheet 1 GRAPH Coverage Results" MODIFIED="1676376895506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/small code from lessons" />
-    <SUITE FILE_PATH="coverage/Python_challenges$alphabet.coverage" NAME="alphabet Coverage Results" MODIFIED="1665486642481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_challenges$date_validation.coverage" NAME="date validation Coverage Results" MODIFIED="1670326415650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_challenges$XOR_SWAPPIN.coverage" NAME="XOR SWAPPIN Coverage Results" MODIFIED="1667473559516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_challenges$lun_algorithm_2.coverage" NAME="lun algorithm 2 Coverage Results" MODIFIED="1668686551806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_challenges$STACK_BY_USING_ARRAYS.coverage" NAME="STACK BY USING ARRAYS Coverage Results" MODIFIED="1669724263910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_challenges$Polybius.coverage" NAME="Polybius Coverage Results" MODIFIED="1669114145118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_challenges$circular_queue_using_arrays___1_.coverage" NAME="circular queue using arrays  (1) Coverage Results" MODIFIED="1669896167946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_challenges$Connect_four.coverage" NAME="Connect four Coverage Results" MODIFIED="1670328812861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_challenges$calculator.coverage" NAME="calculator Coverage Results" MODIFIED="1665658329839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_challenges$ascii.coverage" NAME="ascii Coverage Results" MODIFIED="1665485719424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_challenges$Date_validation.coverage" NAME="Date validation Coverage Results" MODIFIED="1668515388284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_challenges$Taxi_rank__linked_lisrt.coverage" NAME="Taxi rank, linked lisrt Coverage Results" MODIFIED="1669385804008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_challenges$fibnachi_recvursive_and_iterative_time_test.coverage" NAME="fibnachi recvursive and iterative time test Coverage Results" MODIFIED="1670934369289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/small code from lessons" />
-    <SUITE FILE_PATH="coverage/Python_challenges$Cipher_encryption.coverage" NAME="Cipher encryption Coverage Results" MODIFIED="1670329368107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/computer_science_work$button_guess_game.coverage" NAME="button guess game Coverage Results" MODIFIED="1675766827084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mini Projects" />
-    <SUITE FILE_PATH="coverage/Python_challenges$Arithmitic_test_hw__1_.coverage" NAME="Arithmitic test hw (1) Coverage Results" MODIFIED="1666091808749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_challenges$TAXI_TASK_LINKED_LIST.coverage" NAME="TAXI TASK LINKED LIST Coverage Results" MODIFIED="1669387685949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_challenges$lun_algorithm.coverage" NAME="lun algorithm Coverage Results" MODIFIED="1668781818712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_challenges$ARRAYS_HW.coverage" NAME="ARRAYS HW Coverage Results" MODIFIED="1669391768692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_challenges$bitwise_operation.coverage" NAME="bitwise operation Coverage Results" MODIFIED="1667473308613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_challenges$sum_of_all_even_numbers_recursive_.coverage" NAME="sum of all even numbers(recursive) Coverage Results" MODIFIED="1671100373819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/small code from lessons" />
-    <SUITE FILE_PATH="coverage/Python_challenges$Date_Validation__Working.coverage" NAME="Date Validation (Working Coverage Results" MODIFIED="1670327382786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/computer_science_work$graph_labelling_test.coverage" NAME="graph labelling test Coverage Results" MODIFIED="1675943605126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI/GUI LOGIN files" />
-    <SUITE FILE_PATH="coverage/computer_science_work$Graphs_geeksfor_geeks.coverage" NAME="Graphs geeksfor geeks Coverage Results" MODIFIED="1675943360156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI/GUI LOGIN files" />
-    <SUITE FILE_PATH="coverage/Python_challenges$fibinachi_desu.coverage" NAME="fibinachi desu Coverage Results" MODIFIED="1670325810246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_challenges$string_indexing.coverage" NAME="string indexing Coverage Results" MODIFIED="1665484674518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_challenges$sum_of_all_even_numbers.coverage" NAME="sum of all even numbers Coverage Results" MODIFIED="1670933272268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/small code from lessons" />
-    <SUITE FILE_PATH="coverage/Python_challenges$queue_using_arrays.coverage" NAME="queue using arrays Coverage Results" MODIFIED="1669894891657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/computer_science_work$BMI_GUI.coverage" NAME="BMI GUI Coverage Results" MODIFIED="1675771203362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/small code from lessons" />
   </component>
 </project>
