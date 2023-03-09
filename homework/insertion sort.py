@@ -1,3 +1,6 @@
+import random
+import timeit
+
 def insertion_sort(list):
     num_items = len(list)
     for index in range(1, num_items):  # starts at 1 because we start at the second item
@@ -7,12 +10,31 @@ def insertion_sort(list):
 
         while position >= 0 and list[position] > item_to_insert:
             list[position + 1] = list[position]
-            position = position - 1
+            position -= 1
 
 
         list[position + 1] = item_to_insert
+        # list[position +1] was where
     return list
 
+def timeMeasure(fun):
+    start = timeit.default_timer()
+    timefun = fun
+    end = timeit.default_timer()
+    t = (end -start)*1000000 # time in microseconds. To convert it milliseconds multiply times 1000, and for second multiply by 1
+    print("Time of execution is " + str(t)+ " microseconds")
 
-list = [4, 7, 8, 2, 1, 5, 9]
-print(insertion_sort(list))
+
+list = []
+for i in range(0,10):
+    x = random.randint(0,100)
+    list.append(x)
+# this creates a random array
+
+if __name__ == "__main__":
+    print("unsorted:", list)
+    print("sorted:", insertion_sort(list))
+    timeMeasure(insertion_sort(list))
+
+
+#MAKE A SWAP AND COMPRISON variable

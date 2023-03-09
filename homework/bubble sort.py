@@ -4,11 +4,11 @@ def bubble_sort(list):
 
     while swap:
         swap = False
-        for index in range(0, num_items):
-            if list[index] > list[index + 1]:
-                temp = list[index]
-                list[index] = list[index + 1]
-                list[index + 1] = temp  # Swap the items
+        for i in range(0, num_items):
+            if list[i] > list[i + 1]:
+                temp = list[i]
+                list[i] = list[i + 1]
+                list[i + 1] = temp  # Swap the items
                 swap = True
     return list
 
