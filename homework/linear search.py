@@ -6,7 +6,7 @@ def linear_search(data_set, item_sought):
         if data_set[i] == item_sought:
             index = i
             found = True
-        i = i + 1
+        i += 1
     return index
 
 
