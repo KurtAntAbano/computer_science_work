@@ -17,9 +17,8 @@ def insertion_sort(list):
         # list[position +1] was where
     return list
 
-def timeMeasure(fun):
+def timeMeasure():
     start = timeit.default_timer()
-    timefun = fun
     end = timeit.default_timer()
     t = (end -start)*1000000 # time in microseconds. To convert it milliseconds multiply times 1000, and for second multiply by 1
     print("Time of execution is " + str(t)+ " microseconds")
@@ -34,7 +33,7 @@ for i in range(0,10):
 if __name__ == "__main__":
     print("unsorted:", list)
     print("sorted:", insertion_sort(list))
-    timeMeasure(insertion_sort(list))
+    timeMeasure()
 
 
 #MAKE A SWAP AND COMPRISON variable
