@@ -7,10 +7,15 @@ for i in range(0, size):
 
 def hash(astring, tablesize):
     sum = 0
+    index = 0
     for pos in range(len(astring)):
         sum = sum + ord(astring[pos])  # ord converts string into ASCII
 
-    return sum % tablesize
+        index = sum % tablesize
+        while hashTable[index] != " ":
+            index += 1
+
+    return index
 
 
 for n in range(4):
