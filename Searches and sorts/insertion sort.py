@@ -1,5 +1,5 @@
 import random
-from to_import timemeasure
+#from to_import timemeasure
 
 def insertion_sort(list):
     num_items = len(list)
@@ -28,7 +28,7 @@ for i in range(0,10):
 if __name__ == "__main__":
     print("unsorted:", list)
     print("sorted:", insertion_sort(list))
-    timemeasure()
+    #timemeasure()
 
 
 #MAKE A SWAP AND COMPRISON variable
