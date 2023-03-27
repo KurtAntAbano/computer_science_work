@@ -7,4 +7,4 @@ def linear_search(data_set, item_sought, i):
         return linear_search(data_set, item_sought, i + 1)
 
 
-print(linear_search([12, 23, 55, 65, 3, 4, 59, 100], 900, 0))
+print(linear_search([12, 23, 55, 65, 3, 4, 59, 100], 55, 0))
