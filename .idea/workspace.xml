@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0d26dcd-8c33-4419-8991-71aa23d09afd" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/Mini Projects/element quiz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/RLE dictionary,.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +54,8 @@
       <recent name="C:\Users\ka041\computer_science_work\GUI\GUI LOGIN files" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.json practice II">
-    <configuration name="Hash tables" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.RLE dictionary,">
+    <configuration name="RLE dictionary," type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -62,12 +63,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data structures" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data structures/Hash tables.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework/RLE dictionary,.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.RLE dictionary," />
         <item itemvalue="Python.json practice II" />
         <item itemvalue="Python.json practice" />
         <item itemvalue="Python.program" />
         <item itemvalue="Python.finding repeated items dictionary" />
-        <item itemvalue="Python.Hash tables" />
       </list>
     </recent_temporary>
   </component>
@@ -207,14 +208,8 @@
       <workItem from="1679063218533" duration="270000" />
       <workItem from="1679067804638" duration="948000" />
       <workItem from="1679400117105" duration="1678000" />
-      <workItem from="1679567341094" duration="3164000" />
-    </task>
-    <task id="LOCAL-00017" summary="yes">
-      <created>1670182017631</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1670182017631</updated>
+      <workItem from="1679567341094" duration="3492000" />
+      <workItem from="1679996662598" duration="863000" />
     </task>
     <task id="LOCAL-00018" summary="yes">
       <created>1670184841911</created>
@@ -552,7 +547,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679572386347</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="update">
+      <created>1679572724985</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1679572724985</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
