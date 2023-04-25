@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0d26dcd-8c33-4419-8991-71aa23d09afd" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/OOP/OOP stack.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP/Shapes OOP.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Shapes OOP.py" afterDir="false" />
     </list>
@@ -52,7 +53,7 @@
       <recent name="C:\Users\ka041\computer_science_work\Mini Projects" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Shapes OOP">
+  <component name="RunManager" selected="Python.OOP stack">
     <configuration name="Demo pets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,7 +76,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RLE dictionary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="OOP stack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -83,12 +84,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework/RLE dictionary.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/OOP stack.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.OOP stack" />
         <item itemvalue="Python.Shapes OOP" />
         <item itemvalue="Python.Demo pets" />
         <item itemvalue="Python.q1 cards 2007  (1)" />
         <item itemvalue="Python.q1 cards 2007 " />
-        <item itemvalue="Python.RLE dictionary" />
       </list>
     </recent_temporary>
   </component>
@@ -201,6 +202,7 @@
       <workItem from="1669721162714" duration="364000" />
       <workItem from="1681983071283" duration="5178000" />
       <workItem from="1682083880201" duration="4726000" />
+      <workItem from="1682415912993" duration="3699000" />
     </task>
     <task id="LOCAL-00012" summary="l">
       <created>1669387961602</created>
@@ -591,5 +593,6 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/computer_science_work$Demo_pets.coverage" NAME="Demo pets Coverage Results" MODIFIED="1681987321472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP" />
     <SUITE FILE_PATH="coverage/computer_science_work$Shapes_OOP.coverage" NAME="Shapes OOP Coverage Results" MODIFIED="1682088635792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP" />
+    <SUITE FILE_PATH="coverage/computer_science_work$OOP_stack.coverage" NAME="OOP stack Coverage Results" MODIFIED="1682420429323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP" />
   </component>
 </project>

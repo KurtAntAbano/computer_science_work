@@ -37,7 +37,7 @@ class circle(Shapes):
         print("new radius is", self.radius)
 
     def properties(self):
-        print()
+        print(self.radius)
 
 
 
@@ -62,6 +62,8 @@ class rectangle(Shapes):
         self.width *= multiplier
 
         print("length is now", self.length, "width is now", self.width)
+
+
 
 
 
