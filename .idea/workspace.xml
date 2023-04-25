@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0d26dcd-8c33-4419-8991-71aa23d09afd" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/OOP/OOP stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/card_game.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Shapes OOP.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Shapes OOP.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,14 +201,7 @@
       <workItem from="1669721162714" duration="364000" />
       <workItem from="1681983071283" duration="5178000" />
       <workItem from="1682083880201" duration="4726000" />
-      <workItem from="1682415912993" duration="3699000" />
-    </task>
-    <task id="LOCAL-00012" summary="l">
-      <created>1669387961602</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1669387961602</updated>
+      <workItem from="1682415912993" duration="5154000" />
     </task>
     <task id="LOCAL-00013" summary="l">
       <created>1669387983210</created>
@@ -547,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681988419761</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="update">
+      <created>1682420632829</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1682420632829</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
