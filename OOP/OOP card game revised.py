@@ -19,7 +19,7 @@ class PlayingCard:
         return f"{self.__suit} {self.__rank} {self.__value}"
 
 
-class Deck():
+class Deck:
 
     def __init__(self):
         self.pointer = 0
@@ -32,10 +32,11 @@ class Deck():
             for j in range(13):  # For each rank in suit
                 new_card = PlayingCard(suits[i], ranks[j], values[j])
                 self.__cards.append(new_card)
+        #
+        # random.shuffle(self.__cards)
+        # for cards in self.__cards:
+        #     print(cards)
 
-        random.shuffle(self.__cards)
-        for cards in self.__cards:
-            print(cards)
 
     def shuffle(self):
         # Code to shuffle cards here
@@ -47,24 +48,25 @@ class Deck():
         # take from the shuffled list
         # remove first item of the shuffled list
         card1 = self.__cards[self.pointer]
-        card2 = self.__cards[self.pointer + 1]
         self.pointer += 2
-        return card1, card2
+        return f"{card1}"
 
 
-class Player(Deck):
+class Player:
     def __init__(self, given_name):
-        super().__init__()
         self.__name = given_name
         self.__score = 0
         self.__cardhand = []
 
-    def recievecard(self):
-        self.__cardhand.append(self.deal())
+    def recieve_cards(self, cards):
+        self.__cardhand.append(cards)
+        return f"{self.__cardhand}"
 
-    def __str__(self):
-        output = f"{self.__cardhand}"
-        return output
+
+
+
+
+
 
 
 
@@ -72,9 +74,15 @@ class Player(Deck):
 
 
 if __name__ == "__main__":
-    card = Player("kurt")
-    # card.recievecard()
-    # print(card.__str__())
+    myDeck = Deck()
+    myDeck.shuffle()
+    player1 = Player("Kurt")
+    player1.recieve_cards(myDeck.deal())
+    print(player1.recieve_cards(myDeck.deal()))
+
+
+
+
 
     # player_name = input("Enter your name ")
     # game_player = Player(player_name)
