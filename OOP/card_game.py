@@ -3,6 +3,9 @@ class Player:
     def __init__(self, given_name):
         self.__name = given_name
         self.__score = 0
+        self.__cards
+
+
 
 #  create card list
 #  jumble the order of the card list
@@ -40,7 +43,11 @@ class Deck():
 
     def deal(self):
         # Code to deal a card from the deck
+        # take from the shuffled list
+        # remove first item of the shuffled list
         pass
 
 if __name__ == "__main__":
     card = Deck()
+    # player_name = input("Enter your name ")
+    # game_player = Player(player_name)
