@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0d26dcd-8c33-4419-8991-71aa23d09afd" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/OOP/OOP linked lists.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/object oriented linked lists.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data structures/cities linked list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUI/GUI LOGIN files/user_data" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/GUI LOGIN files/user_data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/object oriented linked lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/object oriented linked lists.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +52,7 @@
       <recent name="C:\Users\ka041\computer_science_work\Mini Projects" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.OOP linked lists">
+  <component name="RunManager" selected="Python.object oriented linked lists">
     <configuration name="GUI login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,7 +116,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="card_game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="OOP stack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -131,7 +128,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/card_game.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/OOP stack.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,7 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="q1 cards 2007  (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="object oriented linked lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -148,11 +145,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/independent learning programming red booklet" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/independent learning programming red booklet/q1 cards 2007 .py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/object oriented linked lists.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.object oriented linked lists" />
+        <item itemvalue="Python.OOP stack" />
         <item itemvalue="Python.OOP linked lists" />
         <item itemvalue="Python.GUI login" />
         <item itemvalue="Python.OOP card game revised" />
-        <item itemvalue="Python.card_game" />
-        <item itemvalue="Python.q1 cards 2007  (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -197,13 +194,6 @@
       <workItem from="1669382148474" duration="4258000" />
       <workItem from="1669386631318" duration="5303000" />
       <workItem from="1669721162714" duration="364000" />
-    </task>
-    <task id="LOCAL-00015" summary="yes">
-      <created>1670114752220</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1670114752220</updated>
     </task>
     <task id="LOCAL-00016" summary="yes">
       <created>1670115378210</created>
@@ -541,7 +531,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682852850362</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="update">
+      <created>1683131865215</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1683131865215</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
