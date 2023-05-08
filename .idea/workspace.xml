@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0d26dcd-8c33-4419-8991-71aa23d09afd" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_04_2023_16_31_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_04_2023_16_31__Changes_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini Projects/goals.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini Projects/world cup quiz (uses goals.txt).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +53,7 @@
       <recent name="C:\Users\ka041\computer_science_work\Mini Projects" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.object oriented linked lists">
+  <component name="RunManager" selected="Python.world cup quiz (uses goals.txt)">
     <configuration name="GUI login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -67,27 +67,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI/GUI LOGIN files/GUI login.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="OOP card game revised" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python challenges" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/OOP card game revised.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,13 +138,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="world cup quiz (uses goals.txt)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python challenges" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mini Projects" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mini Projects/world cup quiz (uses goals.txt).py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.world cup quiz (uses goals.txt)" />
         <item itemvalue="Python.object oriented linked lists" />
         <item itemvalue="Python.OOP stack" />
         <item itemvalue="Python.OOP linked lists" />
         <item itemvalue="Python.GUI login" />
-        <item itemvalue="Python.OOP card game revised" />
       </list>
     </recent_temporary>
   </component>
@@ -195,13 +195,6 @@
       <workItem from="1669382148474" duration="4258000" />
       <workItem from="1669386631318" duration="5303000" />
       <workItem from="1669721162714" duration="364000" />
-    </task>
-    <task id="LOCAL-00017" summary="yes">
-      <created>1670182017631</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1670182017631</updated>
     </task>
     <task id="LOCAL-00018" summary="yes">
       <created>1670184841911</created>
@@ -539,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683141435279</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="update">
+      <created>1683309538400</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1683309538401</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
