@@ -23,6 +23,8 @@ def how_many_goals(country):
         if data[1] == country:
             count += int(data[2])
 
+    file.close()
+
     return count
 
 

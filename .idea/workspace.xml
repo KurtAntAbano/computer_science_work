@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0d26dcd-8c33-4419-8991-71aa23d09afd" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/Mini Projects/goals.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini Projects/world cup quiz (uses goals.txt).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small code from lessons/Arrays, Tuple, records WS 1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mini Projects/world cup quiz (uses goals.txt).py" beforeDir="false" afterPath="$PROJECT_DIR$/Mini Projects/world cup quiz (uses goals.txt).py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,17 +33,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ka041/computer_science_work&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "last_opened_file_path": "C:/Users/a30328/PycharmProjects/computer_science_work",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\a30328\PycharmProjects\computer_science_work\small code from lessons\Algorithms worksheet 1 files" />
@@ -53,8 +53,8 @@
       <recent name="C:\Users\ka041\computer_science_work\Mini Projects" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.world cup quiz (uses goals.txt)">
-    <configuration name="GUI login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Arrays, Tuple, records WS 1">
+    <configuration name="Arrays, Tuple, records WS 1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -62,32 +62,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GUI/GUI LOGIN files" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/small code from lessons" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI/GUI LOGIN files/GUI login.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="OOP linked lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python challenges" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/OOP linked lists.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/small code from lessons/Arrays, Tuple, records WS 1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -108,6 +88,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/OOP stack.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -117,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="object oriented linked lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="card_game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,7 +110,30 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/object oriented linked lists.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/card_game.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="circular queue" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python challenges" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/circular queue.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,6 +154,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mini Projects/world cup quiz (uses goals.txt).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -161,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Arrays, Tuple, records WS 1" />
         <item itemvalue="Python.world cup quiz (uses goals.txt)" />
-        <item itemvalue="Python.object oriented linked lists" />
+        <item itemvalue="Python.card_game" />
+        <item itemvalue="Python.circular queue" />
         <item itemvalue="Python.OOP stack" />
-        <item itemvalue="Python.OOP linked lists" />
-        <item itemvalue="Python.GUI login" />
       </list>
     </recent_temporary>
   </component>
@@ -195,6 +200,18 @@
       <workItem from="1669382148474" duration="4258000" />
       <workItem from="1669386631318" duration="5303000" />
       <workItem from="1669721162714" duration="364000" />
+      <workItem from="1681983071283" duration="5178000" />
+      <workItem from="1682083880201" duration="4726000" />
+      <workItem from="1682415912993" duration="5394000" />
+      <workItem from="1682422284766" duration="17000" />
+      <workItem from="1682587850799" duration="4981000" />
+    </task>
+    <task id="LOCAL-00017" summary="yes">
+      <created>1670182017631</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1670182017631</updated>
     </task>
     <task id="LOCAL-00018" summary="yes">
       <created>1670184841911</created>
@@ -491,55 +508,48 @@
       <updated>1681710820748</updated>
     </task>
     <task id="LOCAL-00060" summary="update">
-      <created>1682622042532</created>
+      <created>1681988419761</created>
       <option name="number" value="00060" />
       <option name="presentableId" value="LOCAL-00060" />
       <option name="project" value="LOCAL" />
-      <updated>1682622042533</updated>
+      <updated>1681988419761</updated>
     </task>
     <task id="LOCAL-00061" summary="update">
-      <created>1682624606196</created>
+      <created>1682420632829</created>
       <option name="number" value="00061" />
       <option name="presentableId" value="LOCAL-00061" />
       <option name="project" value="LOCAL" />
-      <updated>1682624606196</updated>
+      <updated>1682420632829</updated>
     </task>
     <task id="LOCAL-00062" summary="update">
-      <created>1682625664491</created>
+      <created>1682422241353</created>
       <option name="number" value="00062" />
       <option name="presentableId" value="LOCAL-00062" />
       <option name="project" value="LOCAL" />
-      <updated>1682625664491</updated>
+      <updated>1682422241353</updated>
     </task>
     <task id="LOCAL-00063" summary="update">
-      <created>1682852850360</created>
+      <created>1682422291681</created>
       <option name="number" value="00063" />
       <option name="presentableId" value="LOCAL-00063" />
       <option name="project" value="LOCAL" />
-      <updated>1682852850362</updated>
+      <updated>1682422291682</updated>
     </task>
     <task id="LOCAL-00064" summary="update">
-      <created>1683131865215</created>
+      <created>1682590367086</created>
       <option name="number" value="00064" />
       <option name="presentableId" value="LOCAL-00064" />
       <option name="project" value="LOCAL" />
-      <updated>1683131865215</updated>
+      <updated>1682590367086</updated>
     </task>
     <task id="LOCAL-00065" summary="update">
-      <created>1683141435279</created>
+      <created>1682592517271</created>
       <option name="number" value="00065" />
       <option name="presentableId" value="LOCAL-00065" />
       <option name="project" value="LOCAL" />
-      <updated>1683141435279</updated>
+      <updated>1682592517271</updated>
     </task>
-    <task id="LOCAL-00066" summary="update">
-      <created>1683309538400</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1683309538401</updated>
-    </task>
-    <option name="localTasksCounter" value="67" />
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,5 +591,14 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/computer_science_work$Demo_pets.coverage" NAME="Demo pets Coverage Results" MODIFIED="1681987321472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP" />
+    <SUITE FILE_PATH="coverage/computer_science_work$Shapes_OOP.coverage" NAME="Shapes OOP Coverage Results" MODIFIED="1682088635792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP" />
+    <SUITE FILE_PATH="coverage/computer_science_work$OOP_stack.coverage" NAME="OOP stack Coverage Results" MODIFIED="1682420429323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP" />
+    <SUITE FILE_PATH="coverage/computer_science_work$card_game.coverage" NAME="card_game Coverage Results" MODIFIED="1682593153449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP" />
+    <SUITE FILE_PATH="coverage/computer_science_work$world_cup_quiz__uses_goals_txt_.coverage" NAME="world cup quiz (uses goals.txt) Coverage Results" MODIFIED="1683625828038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mini Projects" />
+    <SUITE FILE_PATH="coverage/computer_science_work$Arrays__Tuple__records_WS_1.coverage" NAME="Arrays, Tuple, records WS 1 Coverage Results" MODIFIED="1683628912166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/small code from lessons" />
+    <SUITE FILE_PATH="coverage/computer_science_work$circular_queue.coverage" NAME="circular queue Coverage Results" MODIFIED="1682592049663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP" />
   </component>
 </project>
