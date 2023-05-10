@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c0d26dcd-8c33-4419-8991-71aa23d09afd" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUI/GUI LOGIN files/GUI login.py" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/GUI LOGIN files/GUI login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mini Projects/world cup quiz (uses goals.txt).py" beforeDir="false" afterPath="$PROJECT_DIR$/Mini Projects/world cup quiz (uses goals.txt).py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +95,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="OOP stack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="co pilot test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,11 +103,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/small code from lessons" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/OOP stack.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/small code from lessons/co pilot test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -117,7 +116,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="object oriented linked lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="tab creation example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -125,11 +124,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GUI/GUI TABS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/object oriented linked lists.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI/GUI TABS/tab creation example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,10 +161,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.world cup quiz (uses goals.txt)" />
+        <item itemvalue="Python.tab creation example" />
+        <item itemvalue="Python.co pilot test" />
         <item itemvalue="Python.GUI login" />
         <item itemvalue="Python.BMI GUI" />
-        <item itemvalue="Python.object oriented linked lists" />
-        <item itemvalue="Python.OOP stack" />
       </list>
     </recent_temporary>
   </component>
@@ -195,13 +194,6 @@
       <workItem from="1669382148474" duration="4258000" />
       <workItem from="1669386631318" duration="5303000" />
       <workItem from="1669721162714" duration="364000" />
-    </task>
-    <task id="LOCAL-00018" summary="yes">
-      <created>1670184841911</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1670184841911</updated>
     </task>
     <task id="LOCAL-00019" summary="yes">
       <created>1670186466626</created>
@@ -539,7 +531,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683309538401</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="update">
+      <created>1683659870716</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1683659870718</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
