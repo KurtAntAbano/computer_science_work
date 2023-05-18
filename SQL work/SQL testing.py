@@ -19,10 +19,10 @@ def createTable():
 def insertData():
     connector = sqlite3.connect("test.db")
     connector.execute("INSERT INTO COMPANY (staffID,name,room,address,salary)"
-                      "VALUES (1, 'Paul', 32, 'STOKE', 20000.00)");
+                      "VALUES (1, 'Paul', 32, 'STOKE', 20000.00)")
 
     connector.execute("INSERT INTO COMPANY (staffID,name,room,address,salary)"
-                      "VALUES (123, 'Kurt', 44, 'STOKE', 20000.00)");
+                      "VALUES (123, 'Kurt', 44, 'STOKE', 20000.00)")
 
     connector.commit()
     print("Records created successfully")
