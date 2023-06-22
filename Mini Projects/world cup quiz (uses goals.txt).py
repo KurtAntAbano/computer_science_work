@@ -67,7 +67,7 @@ def mainMenuGUI(countries):
     bt_themeChange = Button(win1, text=f"Dark mode", width=12, command=lambda: dark_change(win1))
     bt_themeChange.grid(row=2, column=2, padx=10, pady=10)
 
-    bt_themeChange = Button(win1, text=f"Dark mode", width=12, command=lambda: light_change(win1))
+    bt_themeChange = Button(win1, text=f"light mode", width=12, command=lambda: light_change(win1))
     bt_themeChange.grid(row=2, column=0, padx=10, pady=10)
 
     mainloop()
