@@ -6,7 +6,7 @@ xlab = "x axis 2"
 ylab = "y axis 2"
 title = "GRaph2"
 
-genGraph.plotGra(xval,yval,xlab,ylab,title)
+genGraph.plotGra(xval, yval, xlab, ylab, title)
 #function from genGraph
 
 #To import files we need them to be in the same folder

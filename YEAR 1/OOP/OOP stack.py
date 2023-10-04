@@ -54,6 +54,3 @@ if __name__ == "__main__":
     print(myStack.get_alist())
     print(myStack.get_sp())
 
-
-
-
