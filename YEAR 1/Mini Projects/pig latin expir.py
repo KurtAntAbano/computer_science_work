@@ -8,10 +8,10 @@ length = len(word)
 
 if word[0] in constants:
     remove_first_letter = word[1:length]
-    pig_latin = remove_first_letter+word[0]+"ay"
+    pig_latin = f"{remove_first_letter}-{word[0]}ay"
 
 elif word[0] in vowels:
-    pig_latin = word+"ay"
+    pig_latin = f"{word}ay"
 
 print(pig_latin)
 
